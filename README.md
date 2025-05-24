@@ -1,4 +1,3 @@
-```markdown
 ![MintSync](assets/logo.png)
 # 🪙 MintSync
 
@@ -32,7 +31,6 @@
 
 ## 📁 Project Structure
 
-```
 MintSync/
 ├── images/                         # Saved image uploads
 ├── nft_mint_sui/
@@ -51,7 +49,6 @@ MintSync/
 ├── assets/
 │   ├── logo.png                    #logo
 └── README.md                       # You're here!
-```
 
 ---
 
@@ -146,4 +143,3 @@ Contract address - 0x8f1A6030684f975DaDfc2A8c2c52a1D5C783d492
 ---
 
 Happy minting with **MintSync**!
-```
