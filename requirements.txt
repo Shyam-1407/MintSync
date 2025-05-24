@@ -1,0 +1,4 @@
+discord.py
+pinata_python
+dotenv
+web3

@@ -1,0 +1,13 @@
+{
+  "name": "lazy-nft-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node transaction_sui.js"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.54.1",
+    "dotenv": "^16.5.0"
+  }
+}
+

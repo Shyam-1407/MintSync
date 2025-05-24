@@ -1,0 +1,11 @@
+[package]
+name = "nft_mint"           # Your Move package name
+version = "0.0.1"           # Version number
+published-at = "0x0"        # Placeholder, will be updated after first publish
+
+[dependencies]
+Sui = { local = "C:/sui/crates/sui-framework/packages/sui-framework" }  
+# Points to your local clone of the Sui framework
+
+[addresses]
+nft_mint = "0x0"            # Will be updated to your actual address after publishing
