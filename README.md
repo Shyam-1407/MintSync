@@ -30,7 +30,7 @@
 ---
 
 ## 📁 Project Structure
-
+```
 MintSync/
 ├── images/                         # Saved image uploads
 ├── nft_mint_sui/
@@ -49,7 +49,7 @@ MintSync/
 ├── assets/
 │   ├── logo.png                    #logo
 └── README.md                       # You're here!
-
+```
 ---
 
 ## ⚙️ Setup Instructions
