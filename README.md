@@ -1,5 +1,5 @@
 ![MintSync](assets/logo.png)
-# 🪙 MintSync
+# MintSync
 
 **MintSync** is a cross-chain NFT minting Discord bot that automatically turns uploaded images into NFTs on both the **Ethereum (Sepolia Testnet)** and the **Sui blockchain**. Just drop an image in a designated Discord channel, and MintSync handles everything — from IPFS pinning to smart contract minting.
 
