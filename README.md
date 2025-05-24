@@ -99,6 +99,7 @@ Make sure the bot is invited to your Discord server with the necessary permissio
 ## 🧪 How It Works
 
 1.  User uploads an image to a designated Discord channel.
+![MintSync](assets/image_upload.png)
 2.  The bot:
     * Downloads the image.
     * Pins it to IPFS.
@@ -107,8 +108,14 @@ Make sure the bot is invited to your Discord server with the necessary permissio
         * Ethereum (Sepolia) via Web3
         * Sui Blockchain via Move
 3.  Bot replies with the minted NFT links (Etherscan, SuiVision, etc.)
+![MintSync](assets/bot_reply.png)
+![MintSync](assets/suivision-1.png)
+![MintSync](assets/opensea.png)
 
 ---
+### Flow Chart
+
+![MintSync](assets/Flowchart.png)
 
 
 ### ✅ Sui Move Module
@@ -122,6 +129,7 @@ public entry fun mint_nft(
 )
 ```
 This mints a new NFT struct and transfers it to the caller’s wallet.
+
 Package Id - 0x6df7dc2f60303c6e05905aa94d31c59fc8ad3c7df002bbc6fd0aded773f08f0e
 
 ### ✅ Ethereum Contract
