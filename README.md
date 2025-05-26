@@ -5,18 +5,18 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔗 **Cross-Chain Minting** – Mint NFTs on Ethereum (via `web3.py`) and Sui (via Move contracts).
-- 🤖 **Discord Bot Integration** – Mint NFTs just by uploading images to Discord.
-- 📥 **IPFS Storage** – Automatically uploads images and metadata to IPFS via Pinata.
-- ⚙️ **Move Smart Contracts** – Sui NFT minting handled via custom Move modules.
-- 📜 **Ethereum Contract** – Supports minting using existing smart contracts on Sepolia.
-- 📦 **Lazy Minting** – Mint only when triggered by user actions, reducing gas and clutter.
+- **Cross-Chain Minting** – Mint NFTs on Ethereum (via `web3.py`) and Sui (via Move contracts).
+- **Discord Bot Integration** – Mint NFTs just by uploading images to Discord.
+- **IPFS Storage** – Automatically uploads images and metadata to IPFS via Pinata.
+- **Move Smart Contracts** – Sui NFT minting handled via custom Move modules.
+- **Ethereum Contract** – Supports minting using existing smart contracts on Sepolia.
+- **Lazy Minting** – Mint only when triggered by user actions, reducing gas and clutter.
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Layer        | Technology                  |
 |--------------|-----------------------------|
@@ -29,7 +29,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 MintSync/
 ├── images/                         # Saved image uploads
@@ -52,7 +52,7 @@ MintSync/
 ```
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Install Dependencies
 
@@ -96,7 +96,7 @@ Make sure the bot is invited to your Discord server with the necessary permissio
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 1.  User uploads an image to a designated Discord channel.
 ![MintSync](assets/image_upload.png)
@@ -118,7 +118,7 @@ Make sure the bot is invited to your Discord server with the necessary permissio
 ![MintSync](assets/Flowchart.png)
 
 
-### ✅ Sui Move Module
+### Sui Move Module
 
 ```move
 public entry fun mint_nft(
@@ -132,7 +132,7 @@ This mints a new NFT struct and transfers it to the caller’s wallet.
 
 Package Id - 0x6df7dc2f60303c6e05905aa94d31c59fc8ad3c7df002bbc6fd0aded773f08f0e
 
-### ✅ Ethereum Contract
+### Ethereum Contract
 
 Uses an **ERC-721 contract** with a `publicMint(string)` function. You must deploy this beforehand and update `abi.txt` and the contract address in your code.
 
@@ -140,13 +140,13 @@ Contract address - 0x8f1A6030684f975DaDfc2A8c2c52a1D5C783d492
 
 ---
 
-## 🧠 Made With
+## Made With
 
-* 🐍 `discord.py`
-* 📦 `web3.py`
-* 🌊 `@mysten/sui.js`
-* 🧠 Move Language
-* 🌐 IPFS + Pinata
+* `discord.py`
+* `web3.py`
+* `@mysten/sui.js`
+* Move Language
+* IPFS + Pinata
 
 ---
 
