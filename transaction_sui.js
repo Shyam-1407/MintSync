@@ -17,7 +17,7 @@ const packageId = process.env.PACKAGE_ID;             // Deployed package ID of 
 // Async function to mint NFT on Sui
 async function mintNFT(metadata) {
   if (!metadata) {
-    throw new Error("❌ Metadata URL is undefined. Pass it as a CLI argument.");
+    throw new Error("Metadata URL is undefined. Pass it as a CLI argument.");
   }
 
   // Connect to Sui fullnode
@@ -52,9 +52,9 @@ async function mintNFT(metadata) {
   // Extract and display the minted object ID
   const objectId = result.effects?.created?.[0]?.reference?.objectId;
   if (objectId) {
-    console.log(`✅ NFT minted: https://devnet.suivision.xyz/object/${objectId}`);
+    console.log(`NFT minted: https://devnet.suivision.xyz/object/${objectId}`);
   } else {
-    console.error('❌ Failed to extract object ID');
+    console.error('Failed to extract object ID');
   }
 }
 
