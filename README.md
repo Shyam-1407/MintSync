@@ -130,7 +130,7 @@ public entry fun mint_nft(
 ```
 This mints a new NFT struct and transfers it to the caller’s wallet.
 
-Package Id - 0x6df7dc2f60303c6e05905aa94d31c59fc8ad3c7df002bbc6fd0aded773f08f0e
+Object Id - 0x46cc9c2a1b22646a2e50960f83716f4693bee9905041854958e8aae68f9eaa79
 
 ### Ethereum Contract
 
